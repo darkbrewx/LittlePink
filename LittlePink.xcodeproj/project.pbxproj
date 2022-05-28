@@ -10,11 +10,15 @@
 		8CD0B570225737EB037F5412 /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EEFCA19980574F82880E49 /* Pods_LittlePink.framework */; };
 		C1511DE5284086CF00ED985F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1511DE4284086CF00ED985F /* AppDelegate.swift */; };
 		C1511DE7284086CF00ED985F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1511DE6284086CF00ED985F /* SceneDelegate.swift */; };
-		C1511DE9284086CF00ED985F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1511DE8284086CF00ED985F /* ViewController.swift */; };
 		C1511DEC284086CF00ED985F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1511DEA284086CF00ED985F /* Main.storyboard */; };
 		C1511DEF284086CF00ED985F /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1511DED284086CF00ED985F /* LittlePink.xcdatamodeld */; };
 		C1511DF1284086D000ED985F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1511DF0284086D000ED985F /* Assets.xcassets */; };
 		C1511DF4284086D000ED985F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1511DF2284086D000ED985F /* LaunchScreen.storyboard */; };
+		C1EF95A72841C87800F22146 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95A62841C87800F22146 /* HomeVC.swift */; };
+		C1EF95AA2841DE2B00F22146 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95A92841DE2B00F22146 /* FollowVC.swift */; };
+		C1EF95AC2841DE4700F22146 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */; };
+		C1EF95AE2841DE7B00F22146 /* NearbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95AD2841DE7B00F22146 /* NearbyVC.swift */; };
+		C1EF95B02841E13B00F22146 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95AF2841E13B00F22146 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +28,16 @@
 		C1511DE1284086CF00ED985F /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1511DE4284086CF00ED985F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1511DE6284086CF00ED985F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1511DE8284086CF00ED985F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1511DEB284086CF00ED985F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1511DEE284086CF00ED985F /* LittlePink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink.xcdatamodel; sourceTree = "<group>"; };
 		C1511DF0284086D000ED985F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1511DF3284086D000ED985F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1511DF5284086D000ED985F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1EF95A62841C87800F22146 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C1EF95A92841DE2B00F22146 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
+		C1EF95AD2841DE7B00F22146 /* NearbyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyVC.swift; sourceTree = "<group>"; };
+		C1EF95AF2841E13B00F22146 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,6 @@
 				0791E065F44C0782B021E297 /* Pods-LittlePink.debug.xcconfig */,
 				4C7259AAA53BD6CE435A6413 /* Pods-LittlePink.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,14 +92,26 @@
 			children = (
 				C1511DE4284086CF00ED985F /* AppDelegate.swift */,
 				C1511DE6284086CF00ED985F /* SceneDelegate.swift */,
-				C1511DE8284086CF00ED985F /* ViewController.swift */,
+				C1EF95A82841C8D000F22146 /* ViewController */,
 				C1511DEA284086CF00ED985F /* Main.storyboard */,
 				C1511DF0284086D000ED985F /* Assets.xcassets */,
 				C1511DF2284086D000ED985F /* LaunchScreen.storyboard */,
 				C1511DF5284086D000ED985F /* Info.plist */,
 				C1511DED284086CF00ED985F /* LittlePink.xcdatamodeld */,
+				C1EF95AF2841E13B00F22146 /* Constants.swift */,
 			);
 			path = LittlePink;
+			sourceTree = "<group>";
+		};
+		C1EF95A82841C8D000F22146 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C1EF95A62841C87800F22146 /* HomeVC.swift */,
+				C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */,
+				C1EF95A92841DE2B00F22146 /* FollowVC.swift */,
+				C1EF95AD2841DE7B00F22146 /* NearbyVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,10 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1511DE9284086CF00ED985F /* ViewController.swift in Sources */,
+				C1EF95A72841C87800F22146 /* HomeVC.swift in Sources */,
 				C1511DE5284086CF00ED985F /* AppDelegate.swift in Sources */,
+				C1EF95AA2841DE2B00F22146 /* FollowVC.swift in Sources */,
 				C1511DE7284086CF00ED985F /* SceneDelegate.swift in Sources */,
 				C1511DEF284086CF00ED985F /* LittlePink.xcdatamodeld in Sources */,
+				C1EF95AC2841DE4700F22146 /* DiscoveryVC.swift in Sources */,
+				C1EF95AE2841DE7B00F22146 /* NearbyVC.swift in Sources */,
+				C1EF95B02841E13B00F22146 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +393,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,6 +424,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
