@@ -20,7 +20,6 @@ class HomeVC: ButtonBarPagerTabStripViewController {
         
         // ButtonBarItem Customization
         settings.style.buttonBarItemBackgroundColor = .clear
-        settings.style.buttonBarItemTitleColor = .label
         settings.style.buttonBarItemFont = .systemFont(ofSize: 16)
         
         super.viewDidLoad()

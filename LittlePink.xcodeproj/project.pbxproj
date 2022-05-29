@@ -19,6 +19,8 @@
 		C1EF95AC2841DE4700F22146 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */; };
 		C1EF95AE2841DE7B00F22146 /* NearbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95AD2841DE7B00F22146 /* NearbyVC.swift */; };
 		C1EF95B02841E13B00F22146 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95AF2841E13B00F22146 /* Constants.swift */; };
+		C1EF95B228422D7B00F22146 /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95B128422D7B00F22146 /* WaterfallVC.swift */; };
+		C1EF95B42842627400F22146 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95B32842627400F22146 /* WaterfallCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
 		C1EF95AD2841DE7B00F22146 /* NearbyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyVC.swift; sourceTree = "<group>"; };
 		C1EF95AF2841E13B00F22146 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C1EF95B128422D7B00F22146 /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
+		C1EF95B32842627400F22146 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */,
 				C1EF95A92841DE2B00F22146 /* FollowVC.swift */,
 				C1EF95AD2841DE7B00F22146 /* NearbyVC.swift */,
+				C1EF95B128422D7B00F22146 /* WaterfallVC.swift */,
+				C1EF95B32842627400F22146 /* WaterfallCell.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -230,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1EF95A72841C87800F22146 /* HomeVC.swift in Sources */,
+				C1EF95B228422D7B00F22146 /* WaterfallVC.swift in Sources */,
+				C1EF95B42842627400F22146 /* WaterfallCell.swift in Sources */,
 				C1511DE5284086CF00ED985F /* AppDelegate.swift in Sources */,
 				C1EF95AA2841DE2B00F22146 /* FollowVC.swift in Sources */,
 				C1511DE7284086CF00ED985F /* SceneDelegate.swift in Sources */,
