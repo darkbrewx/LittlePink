@@ -1,0 +1,18 @@
+
+/* Class = "UITabBarItem"; title = "Post"; ObjectID = "0Lp-xT-6U3"; */
+"0Lp-xT-6U3.title" = "Post";
+
+/* Class = "UITabBarItem"; title = "Shop"; ObjectID = "4A2-EP-naO"; */
+"4A2-EP-naO.title" = "Shop";
+
+/* Class = "UILabel"; text = "follow"; ObjectID = "5l5-BF-bvN"; */
+"5l5-BF-bvN.text" = "follow";
+
+/* Class = "UITabBarItem"; title = "Me"; ObjectID = "CIU-ic-XnP"; */
+"CIU-ic-XnP.title" = "Me";
+
+/* Class = "UITabBarItem"; title = "Message"; ObjectID = "TnC-tx-4K8"; */
+"TnC-tx-4K8.title" = "Message";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "aJF-Tf-obx"; */
+"aJF-Tf-obx.title" = "Home";

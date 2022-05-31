@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		8CD0B570225737EB037F5412 /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EEFCA19980574F82880E49 /* Pods_LittlePink.framework */; };
+		C145D31A2843D82C00205055 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C145D31C2843D82C00205055 /* Localizable.strings */; };
 		C1511DE5284086CF00ED985F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1511DE4284086CF00ED985F /* AppDelegate.swift */; };
 		C1511DE7284086CF00ED985F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1511DE6284086CF00ED985F /* SceneDelegate.swift */; };
 		C1511DEC284086CF00ED985F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1511DEA284086CF00ED985F /* Main.storyboard */; };
 		C1511DEF284086CF00ED985F /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1511DED284086CF00ED985F /* LittlePink.xcdatamodeld */; };
 		C1511DF1284086D000ED985F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1511DF0284086D000ED985F /* Assets.xcassets */; };
 		C1511DF4284086D000ED985F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1511DF2284086D000ED985F /* LaunchScreen.storyboard */; };
+		C195EFCE28434DC30075250C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C195EFCD28434DC30075250C /* README.md */; };
+		C195EFD4284367360075250C /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195EFD3284367360075250C /* TabBarC.swift */; };
+		C195EFD6284369880075250C /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195EFD5284369880075250C /* PostVC.swift */; };
+		C1979E6B2844089300AC4A7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1979E6D2844089300AC4A7B /* InfoPlist.strings */; };
+		C1979E7028446E2600AC4A7B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1979E6F28446E2600AC4A7B /* Extensions.swift */; };
 		C1EF95A72841C87800F22146 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95A62841C87800F22146 /* HomeVC.swift */; };
 		C1EF95AA2841DE2B00F22146 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95A92841DE2B00F22146 /* FollowVC.swift */; };
 		C1EF95AC2841DE4700F22146 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */; };
@@ -27,6 +33,7 @@
 		0791E065F44C0782B021E297 /* Pods-LittlePink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.debug.xcconfig"; sourceTree = "<group>"; };
 		4C7259AAA53BD6CE435A6413 /* Pods-LittlePink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.release.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.release.xcconfig"; sourceTree = "<group>"; };
 		B0EEFCA19980574F82880E49 /* Pods_LittlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C145D31D2843D82E00205055 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C1511DE1284086CF00ED985F /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1511DE4284086CF00ED985F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1511DE6284086CF00ED985F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +41,19 @@
 		C1511DEE284086CF00ED985F /* LittlePink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink.xcdatamodel; sourceTree = "<group>"; };
 		C1511DF0284086D000ED985F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1511DF3284086D000ED985F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C1511DF5284086D000ED985F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18D6E492845EC8D0000876E /* demo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = demo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C18D6E4A2845EE240000876E /* 值类型+引用类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "值类型+引用类型.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C18D6E4C284609A60000876E /* ARC 循环引用.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ARC 循环引用.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C18D6E4D2846337C0000876E /* 枚举.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "枚举.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C18D6E4E284634200000876E /* 闭包.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "闭包.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C195EFCD28434DC30075250C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C195EFD3284367360075250C /* TabBarC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarC.swift; sourceTree = "<group>"; };
+		C195EFD5284369880075250C /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		C195EFD728436D640075250C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		C195EFD828436D640075250C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C1979E63284400BF00AC4A7B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1979E6C2844089300AC4A7B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1979E6F28446E2600AC4A7B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C1EF95A62841C87800F22146 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		C1EF95A92841DE2B00F22146 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
 		C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
@@ -76,6 +95,7 @@
 		C1511DD8284086CF00ED985F = {
 			isa = PBXGroup;
 			children = (
+				C195EFCD28434DC30075250C /* README.md */,
 				C1511DE3284086CF00ED985F /* LittlePink */,
 				C1511DE2284086CF00ED985F /* Products */,
 				86FB8159E0C654B874F6A47D /* Pods */,
@@ -96,28 +116,70 @@
 			children = (
 				C1511DE4284086CF00ED985F /* AppDelegate.swift */,
 				C1511DE6284086CF00ED985F /* SceneDelegate.swift */,
-				C1EF95A82841C8D000F22146 /* ViewController */,
 				C1511DEA284086CF00ED985F /* Main.storyboard */,
+				C195EFD3284367360075250C /* TabBarC.swift */,
+				C195EFD5284369880075250C /* PostVC.swift */,
+				C1EF95A82841C8D000F22146 /* Home */,
+				C195EFCC28434D5B0075250C /* Waterfall */,
+				C195EFCB28434D490075250C /* Common */,
 				C1511DF0284086D000ED985F /* Assets.xcassets */,
 				C1511DF2284086D000ED985F /* LaunchScreen.storyboard */,
-				C1511DF5284086D000ED985F /* Info.plist */,
+				C1979E6E28446AC800AC4A7B /* Resources */,
+				C1979E63284400BF00AC4A7B /* Info.plist */,
 				C1511DED284086CF00ED985F /* LittlePink.xcdatamodeld */,
-				C1EF95AF2841E13B00F22146 /* Constants.swift */,
+				C18D6E4B284609670000876E /* demo */,
 			);
 			path = LittlePink;
 			sourceTree = "<group>";
 		};
-		C1EF95A82841C8D000F22146 /* ViewController */ = {
+		C18D6E4B284609670000876E /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				C18D6E492845EC8D0000876E /* demo.playground */,
+				C18D6E4A2845EE240000876E /* 值类型+引用类型.playground */,
+				C18D6E4C284609A60000876E /* ARC 循环引用.playground */,
+				C18D6E4D2846337C0000876E /* 枚举.playground */,
+				C18D6E4E284634200000876E /* 闭包.playground */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		C195EFCB28434D490075250C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C1EF95AF2841E13B00F22146 /* Constants.swift */,
+				C1979E6F28446E2600AC4A7B /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C195EFCC28434D5B0075250C /* Waterfall */ = {
+			isa = PBXGroup;
+			children = (
+				C1EF95B128422D7B00F22146 /* WaterfallVC.swift */,
+				C1EF95B32842627400F22146 /* WaterfallCell.swift */,
+			);
+			path = Waterfall;
+			sourceTree = "<group>";
+		};
+		C1979E6E28446AC800AC4A7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1979E6D2844089300AC4A7B /* InfoPlist.strings */,
+				C145D31C2843D82C00205055 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C1EF95A82841C8D000F22146 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				C1EF95A62841C87800F22146 /* HomeVC.swift */,
 				C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */,
 				C1EF95A92841DE2B00F22146 /* FollowVC.swift */,
 				C1EF95AD2841DE7B00F22146 /* NearbyVC.swift */,
-				C1EF95B128422D7B00F22146 /* WaterfallVC.swift */,
-				C1EF95B32842627400F22146 /* WaterfallCell.swift */,
 			);
-			path = ViewController;
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = C1511DD8284086CF00ED985F;
 			productRefGroup = C1511DE2284086CF00ED985F /* Products */;
@@ -180,8 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C145D31A2843D82C00205055 /* Localizable.strings in Resources */,
+				C1979E6B2844089300AC4A7B /* InfoPlist.strings in Resources */,
 				C1511DF4284086D000ED985F /* LaunchScreen.storyboard in Resources */,
 				C1511DF1284086D000ED985F /* Assets.xcassets in Resources */,
+				C195EFCE28434DC30075250C /* README.md in Resources */,
 				C1511DEC284086CF00ED985F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,11 +302,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1EF95A72841C87800F22146 /* HomeVC.swift in Sources */,
+				C195EFD4284367360075250C /* TabBarC.swift in Sources */,
 				C1EF95B228422D7B00F22146 /* WaterfallVC.swift in Sources */,
 				C1EF95B42842627400F22146 /* WaterfallCell.swift in Sources */,
 				C1511DE5284086CF00ED985F /* AppDelegate.swift in Sources */,
 				C1EF95AA2841DE2B00F22146 /* FollowVC.swift in Sources */,
+				C195EFD6284369880075250C /* PostVC.swift in Sources */,
 				C1511DE7284086CF00ED985F /* SceneDelegate.swift in Sources */,
+				C1979E7028446E2600AC4A7B /* Extensions.swift in Sources */,
 				C1511DEF284086CF00ED985F /* LittlePink.xcdatamodeld in Sources */,
 				C1EF95AC2841DE4700F22146 /* DiscoveryVC.swift in Sources */,
 				C1EF95AE2841DE7B00F22146 /* NearbyVC.swift in Sources */,
@@ -251,10 +320,19 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C145D31C2843D82C00205055 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C145D31D2843D82E00205055 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		C1511DEA284086CF00ED985F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C1511DEB284086CF00ED985F /* Base */,
+				C195EFD728436D640075250C /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -263,8 +341,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				C1511DF3284086D000ED985F /* Base */,
+				C195EFD828436D640075250C /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C1979E6D2844089300AC4A7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1979E6C2844089300AC4A7B /* ja */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -320,12 +408,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -334,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -374,11 +464,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -395,6 +486,12 @@
 				DEVELOPMENT_TEAM = ZW38677EE9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LittlePink/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pink;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To take pictures or videos";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To record your voice";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save pictures or videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -426,6 +523,12 @@
 				DEVELOPMENT_TEAM = ZW38677EE9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LittlePink/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pink;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To take pictures or videos";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To record your voice";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save pictures or videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

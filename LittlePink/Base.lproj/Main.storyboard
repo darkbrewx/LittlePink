@@ -13,7 +13,7 @@
         <!--Post-->
         <scene sceneID="rqY-du-8Yf">
             <objects>
-                <viewController id="2rZ-DW-ZGn" sceneMemberID="viewController">
+                <viewController id="2rZ-DW-ZGn" customClass="PostVC" customModule="LittlePink" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KGK-IQ-ZY7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,7 +29,7 @@
         <!--Message-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LittlePink" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -267,10 +267,10 @@
             </objects>
             <point key="canvasLocation" x="1969.5652173913045" y="-770.08928571428567"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab BarC-->
         <scene sceneID="URh-JK-2Og">
             <objects>
-                <tabBarController id="Ia0-mC-LC4" sceneMemberID="viewController">
+                <tabBarController id="Ia0-mC-LC4" customClass="TabBarC" customModule="LittlePink" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jgy-3U-gmK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
