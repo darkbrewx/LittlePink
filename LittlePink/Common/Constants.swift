@@ -30,3 +30,5 @@ let kChannels = ["Recommend","Travel","Entertainment","Fashion","Food","Pets","G
 let kMaxPhotoSelectedCount = 9
 let kMaxCameraZoomFactor:CGFloat = 5
 let kSpacingBetweenItems:CGFloat = 2
+
+let kMaxNoteTitleCount = 20
