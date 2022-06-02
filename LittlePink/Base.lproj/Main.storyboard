@@ -92,7 +92,6 @@
                                                             <state key="normal" title="Button"/>
                                                             <buttonConfiguration key="configuration" style="plain">
                                                                 <imageReference key="image" image="plus" catalog="system" symbolScale="large"/>
-                                                                <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
                                                             </buttonConfiguration>
                                                         </button>
                                                     </subviews>
@@ -109,6 +108,8 @@
                                                 <connections>
                                                     <outlet property="dataSource" destination="hla-MP-m50" id="5Qi-ck-2BN"/>
                                                     <outlet property="delegate" destination="hla-MP-m50" id="YCe-4m-Heo"/>
+                                                    <outlet property="dragDelegate" destination="hla-MP-m50" id="Irg-6k-zZu"/>
+                                                    <outlet property="dropDelegate" destination="hla-MP-m50" id="7ao-c1-4DG"/>
                                                 </connections>
                                             </collectionView>
                                         </subviews>

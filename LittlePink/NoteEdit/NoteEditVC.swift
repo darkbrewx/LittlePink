@@ -13,7 +13,7 @@ import AVKit
 class NoteEditVC: UIViewController {
 
     var photos = [
-        UIImage(named: "1"), UIImage(named: "2"), UIImage(named: "3")
+        UIImage(named: "1")!, UIImage(named: "2")!, UIImage(named: "3")!
     ]
     
 //    var videoURL: URL? = Bundle.main.url(forResource: "testVideo", withExtension: "mp4")!
@@ -27,7 +27,7 @@ class NoteEditVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        photoCollectionView.dragInteractionEnabled = true
         // Do any additional setup after loading the view.
     }
 }
@@ -45,7 +45,7 @@ extension NoteEditVC: UICollectionViewDelegate{
             // 1. create SKPhoto Array from UIImage
             var images: [SKPhoto] = []
             for photo in photos{
-                images.append(SKPhoto.photoWithImage(photo!))
+                images.append(SKPhoto.photoWithImage(photo))
             }
             // 2. create PhotoBrowser Instance, and present from your viewController.
             let browser = SKPhotoBrowser(photos: images, initialPageIndex: indexPath.item)
@@ -55,10 +55,6 @@ extension NoteEditVC: UICollectionViewDelegate{
             
             present(browser, animated: true, completion: {})
         }
-        
-        
-        
-        
     }
 }
 // MARK: - SKPhotoBrowserDelegate
