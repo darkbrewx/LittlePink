@@ -12,10 +12,12 @@ import UIKit
 let kFollowVCID = "FollowVCID"
 let kNearbyVCID = "NearbyVCID"
 let kDiscoveryVCID = "DiscoveryVCID"
+let kNoteEditVCID = "NoteEditVCID"
 
 // MARK: CellID
 let kWaterfallCellID = "WaterfallCellID"
-
+let kPhotoCellID = "PhotoCellID"
+let kPhotoFooterID = "PhotoFooterID"
 
 // MARK: Waterfall
 let kWaterfallPadding: CGFloat = 4
@@ -25,6 +27,6 @@ let kWaterfallVCID = "WaterfallVCID"
 let kChannels = ["Recommend","Travel","Entertainment","Fashion","Food","Pets","Game"]
 
 // YPImagePicker
-let kMaxPhotoSelectedCount = 9
+let kMaxPhotoSelectedCount = 3
 let kMaxCameraZoomFactor:CGFloat = 5
 let kSpacingBetweenItems:CGFloat = 2
