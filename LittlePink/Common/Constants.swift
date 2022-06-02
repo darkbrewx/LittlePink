@@ -27,6 +27,6 @@ let kWaterfallVCID = "WaterfallVCID"
 let kChannels = ["Recommend","Travel","Entertainment","Fashion","Food","Pets","Game"]
 
 // YPImagePicker
-let kMaxPhotoSelectedCount = 3
+let kMaxPhotoSelectedCount = 9
 let kMaxCameraZoomFactor:CGFloat = 5
 let kSpacingBetweenItems:CGFloat = 2
