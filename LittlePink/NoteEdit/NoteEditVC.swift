@@ -31,6 +31,9 @@ class NoteEditVC: UIViewController {
         super.viewDidLoad()
         photoCollectionView.dragInteractionEnabled = true
         hideKeyboardWhenTappedAround()
+        titleCountLabel.text = "\(kMaxNoteTitleCount)"
+        noteTextView.textContainerInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        noteTextView.textContainer.lineFragmentPadding = 0
     }
     
     @IBAction func TFEditBegin(_ sender: Any) {
@@ -46,10 +49,16 @@ class NoteEditVC: UIViewController {
     @IBAction func TFEditChanged(_ sender: Any) {
         titleCountLabel.text = "\(kMaxNoteTitleCount - titleTextField.unwrappedText.count)"
     }
-    
-    
 }
 extension NoteEditVC: UITextFieldDelegate{
-
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        let isExceed = range.location >= kMaxNoteTitleCount || (textField.unwrappedText.count + string.count) > kMaxNoteTitleCount
+        if isExceed{
+            showTextHUD("Oops!", "title can not be longer than \(kMaxNoteTitleCount) characters ")
+        }
+        
+        return !isExceed
+    }
 }
 
