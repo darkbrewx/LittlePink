@@ -29,11 +29,7 @@ class NoteEditVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        photoCollectionView.dragInteractionEnabled = true
-        hideKeyboardWhenTappedAround()
-        titleCountLabel.text = "\(kMaxNoteTitleCount)"
-        noteTextView.textContainerInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-        noteTextView.textContainer.lineFragmentPadding = 0
+        config()
     }
     
     @IBAction func TFEditBegin(_ sender: Any) {
