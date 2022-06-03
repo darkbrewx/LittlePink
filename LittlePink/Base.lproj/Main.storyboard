@@ -149,21 +149,23 @@
                                                                 </constraints>
                                                             </view>
                                                         </subviews>
+                                                        <color key="tintColor" red="0.92941176469999998" green="0.3411764706" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="aLN-WE-e7f">
                                                         <rect key="frame" x="0.0" y="63.5" width="382" height="147"/>
                                                         <subviews>
-                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6cP-P1-yDY" customClass="KMPlaceholderTextView" customModule="KMPlaceholderTextView">
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6cP-P1-yDY" customClass="KMPlaceholderTextView" customModule="KMPlaceholderTextView">
                                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="130"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <color key="tintColor" red="0.92941176469999998" green="0.3411764706" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="130" id="Gfw-QZ-Mgs"/>
                                                                 </constraints>
-                                                                <color key="textColor" systemColor="labelColor"/>
+                                                                <color key="textColor" systemColor="secondaryLabelColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" smartInsertDeleteType="no"/>
                                                                 <userDefinedRuntimeAttributes>
-                                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="wirte your note"/>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="write your note"/>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
                                                                         <color key="value" systemColor="placeholderTextColor"/>
                                                                     </userDefinedRuntimeAttribute>
@@ -505,9 +507,6 @@
         <namedColor name="main">
             <color red="0.92900002002716064" green="0.34099999070167542" blue="0.55699998140335083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="placeholderTextColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
