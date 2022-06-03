@@ -27,6 +27,8 @@
 		C1980BA92848B5FE00E02930 /* NoteEditVC-DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1980BA82848B5FE00E02930 /* NoteEditVC-DragDrop.swift */; };
 		C1980BAB2848F65900E02930 /* NoteEditVC-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1980BAA2848F65900E02930 /* NoteEditVC-CollectionView.swift */; };
 		C1980BAD2849AA9100E02930 /* NoteEditVC-Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1980BAC2849AA9100E02930 /* NoteEditVC-Config.swift */; };
+		C1980BB8284A08F800E02930 /* TextViewIAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1980BB6284A08F700E02930 /* TextViewIAView.swift */; };
+		C1980BB9284A08F800E02930 /* TextViewIAView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1980BB7284A08F700E02930 /* TextViewIAView.xib */; };
 		C1EF95A72841C87800F22146 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95A62841C87800F22146 /* HomeVC.swift */; };
 		C1EF95AA2841DE2B00F22146 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95A92841DE2B00F22146 /* FollowVC.swift */; };
 		C1EF95AC2841DE4700F22146 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */; };
@@ -70,6 +72,8 @@
 		C1980BA82848B5FE00E02930 /* NoteEditVC-DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DragDrop.swift"; sourceTree = "<group>"; };
 		C1980BAA2848F65900E02930 /* NoteEditVC-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-CollectionView.swift"; sourceTree = "<group>"; };
 		C1980BAC2849AA9100E02930 /* NoteEditVC-Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-Config.swift"; sourceTree = "<group>"; };
+		C1980BB6284A08F700E02930 /* TextViewIAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewIAView.swift; sourceTree = "<group>"; };
+		C1980BB7284A08F700E02930 /* TextViewIAView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewIAView.xib; sourceTree = "<group>"; };
 		C1EF95A62841C87800F22146 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		C1EF95A92841DE2B00F22146 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
 		C1EF95AB2841DE4700F22146 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 				C1980BA82848B5FE00E02930 /* NoteEditVC-DragDrop.swift */,
 				C18D6E5128476A230000876E /* PhotoCell.swift */,
 				C1980BA228485E1D00E02930 /* PhotoFooter.swift */,
+				C1980BB6284A08F700E02930 /* TextViewIAView.swift */,
+				C1980BB7284A08F700E02930 /* TextViewIAView.xib */,
 			);
 			path = NoteEdit;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1980BB9284A08F800E02930 /* TextViewIAView.xib in Resources */,
 				C145D31A2843D82C00205055 /* Localizable.strings in Resources */,
 				C1979E6B2844089300AC4A7B /* InfoPlist.strings in Resources */,
 				C1511DF4284086D000ED985F /* LaunchScreen.storyboard in Resources */,
@@ -335,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1980BB8284A08F800E02930 /* TextViewIAView.swift in Sources */,
 				C1980BA92848B5FE00E02930 /* NoteEditVC-DragDrop.swift in Sources */,
 				C1EF95A72841C87800F22146 /* HomeVC.swift in Sources */,
 				C18D6E5228476A230000876E /* PhotoCell.swift in Sources */,

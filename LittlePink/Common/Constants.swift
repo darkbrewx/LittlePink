@@ -32,3 +32,4 @@ let kMaxCameraZoomFactor:CGFloat = 5
 let kSpacingBetweenItems:CGFloat = 2
 
 let kMaxNoteTitleCount = 20
+let kMaxNoteTextCount = 1000

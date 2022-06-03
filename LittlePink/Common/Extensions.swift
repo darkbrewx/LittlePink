@@ -54,6 +54,12 @@ extension Bundle{
             return infoDictionary!["CFBundleDisplayName"] as! String
         }
     }
+    static func loadView<T>(fromNib name: String, with type: T.Type) -> T{
+        if let view = Bundle.main.loadNibNamed(name, owner: nil, options: nil)?.first as? T{
+            return view
+        }
+        fatalError("failed to load \(type)")
+    }
 }
 
 

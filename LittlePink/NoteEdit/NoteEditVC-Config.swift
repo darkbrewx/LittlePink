@@ -28,7 +28,17 @@ extension NoteEditVC{
             .foregroundColor: UIColor.secondaryLabel
         ]
         noteTextView.typingAttributes = typingAttributes
-        
+        // caret color
         noteTextView.tintColorDidChange()
+        
+        noteTextView.inputAccessoryView = Bundle.loadView(fromNib: "TextViewIAView", with: TextViewIAView.self)
+        textViewIAView.doneBtn.addTarget(self, action: #selector(resignTextView), for: .touchUpInside)
+        textViewIAView.maxTextCountLabel.text = "/\(kMaxNoteTextCount)"
+    }
+}
+
+extension NoteEditVC{
+    @objc private func resignTextView(){
+        noteTextView.resignFirstResponder()
     }
 }

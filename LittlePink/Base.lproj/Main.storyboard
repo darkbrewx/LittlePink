@@ -170,6 +170,9 @@
                                                                         <color key="value" systemColor="placeholderTextColor"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <outlet property="delegate" destination="hla-MP-m50" id="5Ce-Rg-jOL"/>
+                                                                </connections>
                                                             </textView>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y5a-tI-Iql">
                                                                 <rect key="frame" x="0.0" y="146" width="382" height="1"/>

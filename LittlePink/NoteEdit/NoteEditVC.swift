@@ -25,6 +25,7 @@ class NoteEditVC: UIViewController {
     
     var photoCount: Int { photos.count }
     var isVideo: Bool { videoURL != nil }
+    var textViewIAView: TextViewIAView{ noteTextView.inputAccessoryView as! TextViewIAView }
     
     
     override func viewDidLoad() {
@@ -57,7 +58,19 @@ class NoteEditVC: UIViewController {
         
         titleCountLabel.text = "\(kMaxNoteTitleCount - titleTextField.unwrappedText.count)"
     }
+    
+    // wait to do : word count check before post
 }
+extension NoteEditVC: UITextViewDelegate{
+    func textViewDidChange(_ textView: UITextView) {
+        
+        guard textView.markedTextRange == nil else{ return }
+        textViewIAView.currentTextCount = textView.text.count
+    }
+}
+
+
+
 //extension NoteEditVC: UITextFieldDelegate{
 //    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
 //
