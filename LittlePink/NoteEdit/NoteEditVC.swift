@@ -43,18 +43,30 @@ class NoteEditVC: UIViewController {
     @IBAction func TFEndOnExit(_ sender: Any) {}
     
     @IBAction func TFEditChanged(_ sender: Any) {
+        // don't count highlight text
+        guard titleTextField.markedTextRange == nil else {return}
+        if titleTextField.unwrappedText.count > kMaxNoteTitleCount{
+            titleTextField.text = String(titleTextField.unwrappedText.prefix(kMaxNoteTitleCount))
+            
+            DispatchQueue.main.async {
+                //change the caret position when paste
+                let end = self.titleTextField.endOfDocument
+                self.titleTextField.selectedTextRange = self.titleTextField.textRange(from: end, to: end)
+            }
+        }
+        
         titleCountLabel.text = "\(kMaxNoteTitleCount - titleTextField.unwrappedText.count)"
     }
 }
-extension NoteEditVC: UITextFieldDelegate{
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        
-        let isExceed = range.location >= kMaxNoteTitleCount || (textField.unwrappedText.count + string.count) > kMaxNoteTitleCount
-        if isExceed{
-            showTextHUD("Oops!", "title can not be longer than \(kMaxNoteTitleCount) characters ")
-        }
-        
-        return !isExceed
-    }
-}
+//extension NoteEditVC: UITextFieldDelegate{
+//    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+//
+//        let isExceed = range.location >= kMaxNoteTitleCount || (textField.unwrappedText.count + string.count) > kMaxNoteTitleCount
+//        if isExceed{
+//            showTextHUD("Oops!", "title can not be longer than \(kMaxNoteTitleCount) characters ")
+//        }
+//
+//        return !isExceed
+//    }
+//}
 
